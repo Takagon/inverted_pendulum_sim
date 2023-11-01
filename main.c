@@ -6,7 +6,7 @@
 #include<math.h>
 
 #define PI 3.1415926535
-#define g 8
+#define g 9.8
 #define WINDOW_HEIGHT 720
 #define WINDOW_WIDTH 1280
 
@@ -75,7 +75,7 @@ void state_update(void)
 }
 
 double t = 0;
-double dt = 0.001;
+double dt = 0.01;
 
 void display(void){
     glClear(GL_COLOR_BUFFER_BIT);
